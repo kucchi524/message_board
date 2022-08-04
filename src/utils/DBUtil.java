@@ -9,7 +9,7 @@ public class DBUtil {
     private static final String PERSISTENCE_UNIT_NAME = "message_board";
     private static EntityManagerFactory emf;
 
-    public static EntityManager cretateEntityManager() {
+    public static EntityManager createEntityManager() {
         return getEntityManagerFactory().createEntityManager();
     }
 
